@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "getStarted": "Shop Now",
+    "cart": "Cart",
+    "search": "Search products..."
+  },
+  "hero": {
+    "badge": "Premium Quality Products",
+    "title": "TopFine Products",
+    "subtitle": "Excellence You Can Trust",
+    "description": "Discover our premium range of TopFine tissue and paper products. Quality, comfort, and reliability in every package.",
+    "cta": "Shop Now",
+    "secondaryCta": "View Products",
+    "trustedBy": "Trusted by thousands of customers worldwide",
+    "stats": {
+      "products": "Products Available",
+      "customers": "Happy Customers",
+      "experience": "Years of Excellence"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Discover our premium TopFine collection",
+    "filters": {
+      "all": "All Products",
+      "featured": "Featured",
+      "recent": "Latest"
+    },
+    "items": {
+      "premium_tissues": {
+        "name": "Premium Tissues",
+        "description": "Ultra-soft premium facial tissues for daily comfort"
+      },
+      "paper_towels": {
+        "name": "Paper Towels",
+        "description": "Absorbent and durable paper towels for kitchen use"
+      },
+      "napkins": {
+        "name": "Dinner Napkins",
+        "description": "Elegant napkins perfect for dining and events"
+      },
+      "toilet_paper": {
+        "name": "Toilet Paper",
+        "description": "Comfortable and reliable toilet paper rolls"
+      },
+      "facial_tissues": {
+        "name": "Facial Tissues",
+        "description": "Gentle and soft tissues for sensitive skin"
+      },
+      "kitchen_rolls": {
+        "name": "Kitchen Rolls",
+        "description": "Heavy-duty kitchen rolls for tough cleaning jobs"
+      }
+    },
+    "categories": {
+      "all": "All Products",
+      "tissues": "Tissues",
+      "napkins": "Napkins",
+      "towels": "Paper Towels"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "viewDetails": "View Details",
+      "outOfStock": "Out of Stock",
+      "inStock": "In Stock",
+      "price": "Price",
+      "quantity": "Quantity",
+      "specifications": "Specifications",
+      "description": "Description"
+    },
+    "sort": {
+      "featured": "Featured",
+      "priceHigh": "Price: High to Low",
+      "priceLow": "Price: Low to High",
+      "newest": "Newest",
+      "popular": "Most Popular"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "checkout": "Proceed to Checkout",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "tax": "Tax",
+    "remove": "Remove",
+    "quantity": "Qty"
+  },
+  "about": {
+    "title": "About TopFine",
+    "subtitle": "Your trusted partner in quality paper products",
+    "description": "TopFine has been delivering premium quality tissue and paper products for years. We are committed to providing the best products that combine comfort, durability, and value.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide premium quality paper products that enhance everyday comfort and convenience for families and businesses."
+    },
+    "vision": {
+      "title": "Our Vision", 
+      "description": "To be the leading brand in premium tissue and paper products, known for quality, innovation, and customer satisfaction."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Premium Quality",
+        "description": "We maintain the highest standards in every product we create"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Continuous improvement in product design and functionality"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Environmentally responsible production and packaging"
+      },
+      "customer": {
+        "title": "Customer First",
+        "description": "Your satisfaction is our top priority"
+      }
+    },
+    "stats": {
+      "products": "Product Lines",
+      "customers": "Satisfied Customers",
+      "countries": "Countries Served",
+      "experience": "Years Experience"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for all your paper product needs",
+    "wholesale": {
+      "title": "Wholesale Distribution",
+      "description": "Bulk supply solutions for retailers and businesses with competitive pricing and reliable delivery."
+    },
+    "retail": {
+      "title": "Retail Sales",
+      "description": "Direct sales to consumers through our online platform and authorized retailers."
+    },
+    "customization": {
+      "title": "Custom Packaging",
+      "description": "Private label and custom packaging solutions for businesses and special events."
+    },
+    "delivery": {
+      "title": "Fast Delivery",
+      "description": "Quick and reliable delivery service to ensure you never run out of essentials."
+    }
+  },
+  "contact": {
+    "badge": "Let's Connect",
+    "title": "Get In",
+    "title_highlight": "Touch",
+    "subtitle": "Ready to order or have questions? Contact us and we'll help you find the perfect TopFine products for your needs.",
+    "form": {
+      "title": "Send us a message",
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "your@email.com",
+      "subject": "Subject",
+      "subject_placeholder": "Product inquiry",
+      "message": "Message",
+      "message_placeholder": "Tell us about your needs...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Business Hours"
+    },
+    "office": {
+      "title": "Our Office",
+      "address": "123 TopFine Plaza, Business District, City 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@topfine.com",
+      "hours": "Monday - Friday: 9:00 AM - 6:00 PM"
+    },
+    "social": {
+      "title": "Follow Us",
+      "twitter": "https://twitter.com/topfine",
+      "instagram": "https://instagram.com/topfine",
+      "linkedin": "https://linkedin.com/company/topfine",
+      "whatsapp": "https://wa.me/15551234567"
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "subtitle": "Get a free consultation and quote for bulk orders.",
+      "button": "Schedule Call"
+    }
+  },
+  "footer": {
+    "brand": {
+      "tagline": "Premium Paper Products",
+      "description": "Delivering premium quality tissue and paper products that combine comfort, durability, and exceptional value for everyday use."
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "team": "Our Team", 
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "products": {
+      "title": "Products",
+      "tissues": "Facial Tissues",
+      "paper_towels": "Paper Towels",
+      "napkins": "Napkins",
+      "toilet_paper": "Toilet Paper"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help Center",
+      "shipping": "Shipping Info",
+      "returns": "Returns & Exchange",
+      "faq": "FAQ"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service", 
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "TopFine. All rights reserved.",
+    "description": "TopFine - Your trusted source for premium quality tissue and paper products.",
+    "quickLinks": "Quick Links",
+    "customerService": "Customer Service",
+    "followUs": "Follow Us",
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe for updates and special offers",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "shipping": "Shipping Info",
+      "returns": "Returns",
+      "faq": "FAQ",
+      "support": "Support"
+    },
+    "productCategories": {
+      "tissues": "Facial Tissues",
+      "napkins": "Napkins",
+      "towels": "Paper Towels",
+      "toilet": "Toilet Paper"
+    },
+    "paymentMethods": "We Accept"
+  },
+  "social": {
+    "twitter": "Twitter",
+    "instagram": "Instagram", 
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "viewAll": "View All",
+    "learnMore": "Learn More"
+  }
+}
