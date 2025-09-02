@@ -8,9 +8,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    minify: 'terser',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: undefined,
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
       },
     },
   },
@@ -18,4 +23,7 @@ export default defineConfig({
     host: true,
     port: 3000,
   },
+  esbuild: {
+    target: 'es2020'
+  }
 })
