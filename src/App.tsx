@@ -11,7 +11,9 @@ function App() {
     if (section === 'home') {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
-      const element = document.getElementById(section)
+      // Map gallery to the correct section ID if needed
+      const targetSection = section === 'gallery' ? 'gallery' : section
+      const element = document.getElementById(targetSection)
       if (element) {
         const headerOffset = 100
         const elementPosition = element.offsetTop

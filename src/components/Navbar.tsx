@@ -13,9 +13,8 @@ const Navbar = ({ onNavigate, activeSection }: NavbarProps) => {
 
   const navItems = [
     { id: 'home', label: t('nav.home') },
-    { id: 'products', label: t('nav.products') },
+    { id: 'gallery', label: t('nav.products') },
     { id: 'about', label: t('nav.about') },
-    { id: 'services', label: t('nav.services') },
     { id: 'contact', label: t('nav.contact') }
   ]
 
