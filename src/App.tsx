@@ -5,6 +5,12 @@ import './App.css'
 function App() {
   const [activeSection, setActiveSection] = useState('home')
 
+  // Set default language and direction to Arabic/RTL
+  useEffect(() => {
+    document.documentElement.dir = 'rtl'
+    document.documentElement.lang = 'ar'
+  }, [])
+
   const handleNavigate = (section: string) => {
     setActiveSection(section)
     

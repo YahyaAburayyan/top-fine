@@ -20,8 +20,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'en',
-    lng: 'en',
+    fallbackLng: 'ar',
+    lng: 'ar',
     
     interpolation: {
       escapeValue: false
@@ -29,8 +29,13 @@ i18n
 
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage']
+      caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng'
     }
   });
+
+// Set default direction to RTL for Arabic
+document.documentElement.dir = 'rtl';
+document.documentElement.lang = 'ar';
 
 export default i18n;

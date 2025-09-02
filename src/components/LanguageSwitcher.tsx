@@ -16,22 +16,22 @@ const LanguageSwitcher: React.FC = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-primary-50 hover:bg-primary-100 transition-colors duration-200 border border-primary-200"
+      className="flex items-center space-x-1 px-2 py-2 rounded-lg bg-primary-50 hover:bg-primary-100 transition-colors duration-200 border border-primary-200 rtl:space-x-reverse"
     >
-      <div className="w-5 h-5 rounded-full overflow-hidden border border-gray-300">
+      <div className="w-4 h-4 rounded-full overflow-hidden border border-gray-300">
         {i18n.language === 'en' ? (
           // US Flag
           <div className="w-full h-full bg-gradient-to-b from-red-500 via-white to-blue-500 flex items-center justify-center">
-            <span className="text-xs font-bold text-blue-800">EN</span>
+            <span className="text-[8px] font-bold text-blue-800">EN</span>
           </div>
         ) : (
           // Arabic Flag (or generic Arabic indicator)
           <div className="w-full h-full bg-gradient-to-r from-red-600 via-white to-black flex items-center justify-center">
-            <span className="text-xs font-bold text-green-800">ع</span>
+            <span className="text-[8px] font-bold text-green-800">ع</span>
           </div>
         )}
       </div>
-      <span className="text-sm font-medium text-gray-700">
+      <span className="text-xs lg:text-sm font-medium text-gray-700 hidden lg:inline">
         {i18n.language === 'en' ? 'العربية' : 'English'}
       </span>
     </button>

@@ -40,6 +40,79 @@ html[dir="rtl"] {
   font-size: 1.25rem;
 }
 
+/* Better Arabic navbar spacing */
+@media (max-width: 1024px) {
+  [dir="rtl"] nav button {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  [dir="rtl"] nav button {
+    font-size: 0.95rem;
+    padding: 0.25rem;
+  }
+}
+
+/* Force proper RTL layout for navbar */
+[dir="rtl"] nav .space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  margin-right: var(--tw-space-x-reverse) !important;
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse))) !important;
+}
+
+[dir="rtl"] nav .flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+
+/* Ensure navbar takes full width */
+[dir="rtl"] nav > div {
+  max-width: none !important;
+  width: 100vw !important;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Override container constraints in RTL */
+[dir="rtl"] nav .w-full {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+[dir="rtl"] nav .w-screen {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+/* Fix navbar spacing in RTL */
+[dir="rtl"] nav .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 2rem !important;
+  margin-left: 0 !important;
+}
+
+/* Ensure proper flex distribution */
+[dir="rtl"] nav .flex-1 {
+  flex: 1 1 0% !important;
+}
+
+[dir="rtl"] nav .justify-center {
+  justify-content: center !important;
+}
+
+/* Force full width for Arabic navbar container */
+[dir="rtl"] nav {
+  width: 100vw !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* Remove any margin/padding constraints */
+[dir="rtl"] nav .gap-10 {
+  gap: 2.5rem !important;
+}
+
 /* RTL Spacing */
 [dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
