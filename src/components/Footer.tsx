@@ -74,12 +74,12 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-400">
                 <img 
                   src="/logo.png" 
-                  alt="TopFine Logo" 
+                  alt={t('common.logo_alt')} 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-white font-bold text-xl">TopFine</h3>
+                <h3 className="text-white font-bold text-xl">{t('footer.brand.name')}</h3>
                 <p className="text-xs text-neutral-400 font-medium">{t('footer.brand.tagline')}</p>
               </div>
             </div>

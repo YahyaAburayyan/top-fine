@@ -56,7 +56,7 @@ const Navbar = ({ onNavigate, activeSection }: NavbarProps) => {
                 <div className="w-16 h-10 sm:w-20 sm:h-12 rounded-lg overflow-hidden">
                   <img 
                     src="/logo.png" 
-                    alt="TopFine Logo" 
+                    alt={t('common.logo_alt')} 
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -65,7 +65,7 @@ const Navbar = ({ onNavigate, activeSection }: NavbarProps) => {
               <button
                 className="lg:hidden p-2 text-gray-600 hover:text-gray-900 mr-auto"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                aria-label="Toggle menu"
+                aria-label={t('common.toggle_menu')}
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   {isMenuOpen ? (
@@ -83,7 +83,7 @@ const Navbar = ({ onNavigate, activeSection }: NavbarProps) => {
                 <div className="w-16 h-10 sm:w-20 sm:h-12 rounded-lg overflow-hidden">
                   <img 
                     src="/logo.png" 
-                    alt="TopFine Logo" 
+                    alt={t('common.logo_alt')} 
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -118,7 +118,7 @@ const Navbar = ({ onNavigate, activeSection }: NavbarProps) => {
               <button
                 className="lg:hidden p-2 text-gray-600 hover:text-gray-900 ml-auto"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                aria-label="Toggle menu"
+                aria-label={t('common.toggle_menu')}
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   {isMenuOpen ? (

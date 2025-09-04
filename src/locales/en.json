@@ -21,6 +21,10 @@
       "products": "Products Available",
       "customers": "Happy Customers",
       "experience": "Years of Excellence"
+    },
+    "quality": {
+      "premium": "Premium Quality",
+      "standards": "Professional Standards"
     }
   },
   "products": {
@@ -180,10 +184,10 @@
     },
     "office": {
       "title": "Our Office",
-      "address": "123 TopFine Plaza, Business District, City 12345",
-      "phone": "+1 (555) 123-4567",
-      "email": "info@topfine.com",
-      "hours": "Monday - Friday: 9:00 AM - 6:00 PM"
+      "address": "Palestine, Hebron",
+      "phone": "+972593030212",
+      "email": "topfineps@gmail.com",
+      "hours": "Open all day"
     },
     "social": {
       "title": "Follow Us",
@@ -200,6 +204,7 @@
   },
   "footer": {
     "brand": {
+      "name": "TopFine",
       "tagline": "Premium Paper Products",
       "description": "Delivering premium quality tissue and paper products that combine comfort, durability, and exceptional value for everyday use."
     },
@@ -283,6 +288,9 @@
     "next": "Next",
     "previous": "Previous",
     "viewAll": "View All",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "logo_alt": "TopFine Logo",
+    "toggle_menu": "Toggle menu",
+    "creative_work_alt": "TopFine product image"
   }
 }

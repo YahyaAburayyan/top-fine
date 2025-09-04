@@ -90,14 +90,14 @@ const Hero = ({ onNavigate }: HeroProps) => {
                 <div className="aspect-square bg-white rounded-2xl shadow-lg overflow-hidden">
                   <img 
                     src="/WhatsApp Image 2025-08-15 at 16.02.14_34797aca.jpg" 
-                    alt="Creative work sample"
+                    alt={t('common.creative_work_alt')}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-[4/3] bg-white rounded-2xl shadow-lg overflow-hidden">
                   <img 
                     src="/WhatsApp Image 2025-08-15 at 16.02.14_73e18cb9.jpg" 
-                    alt="Creative work sample"
+                    alt={t('common.creative_work_alt')}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -106,14 +106,14 @@ const Hero = ({ onNavigate }: HeroProps) => {
                 <div className="aspect-[4/3] bg-white rounded-2xl shadow-lg overflow-hidden">
                   <img 
                     src="/WhatsApp Image 2025-08-15 at 16.02.15_be5eda51.jpg" 
-                    alt="Creative work sample"
+                    alt={t('common.creative_work_alt')}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="aspect-square bg-white rounded-2xl shadow-lg overflow-hidden">
                   <img 
                     src="/WhatsApp Image 2025-08-15 at 16.02.16_a578a4c5.jpg" 
-                    alt="Creative work sample"
+                    alt={t('common.creative_work_alt')}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -129,8 +129,8 @@ const Hero = ({ onNavigate }: HeroProps) => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Premium Quality</p>
-                  <p className="text-sm text-gray-500">Professional Standards</p>
+                  <p className="font-semibold text-gray-900">{t('hero.quality.premium')}</p>
+                  <p className="text-sm text-gray-500">{t('hero.quality.standards')}</p>
                 </div>
               </div>
             </div>
