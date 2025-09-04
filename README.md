@@ -1,6 +1,6 @@
 # TopFine Website 🧻
 
-A modern, responsive web application for TopFine - a Palestinian brand specializing in toilet and fine papers. This project was developed as a client website to establish and document the brand's digital presence.
+A modern, responsive Arabic and English web application for TopFine - a Palestinian brand specializing in toilet and fine papers. This project was developed as a client website to establish and document the brand's digital presence.
 
 ## 🚀 Live Demo
 **Website is live and deployed at:** [www.topfine.shop](https://www.topfine.shop)
@@ -20,8 +20,6 @@ A modern, responsive web application for TopFine - a Palestinian brand specializ
 - **Frontend Framework:** React 19.1.1 with TypeScript
 - **Build Tool:** Vite 7.1.2
 - **Styling:** Tailwind CSS 3.4.17 with RTL support
-- **Internationalization:** i18next with browser language detection
-- **Development:** ESLint for code quality
 - **Deployment:** GitHub Pages with custom domain
 
 ## ✨ Features
